@@ -117,7 +117,7 @@ for large devices (laptops and desktops)
     }
 .button_input:active {
     transform: translateY(2px); /* Slight push-down effect */
-    background-color: rgb(78, 136, 38); /* Even darker green on click */
+    background-color: rgb(40, 94, 4); /* Even darker green on click */
 }
     /*top orange navigation bar*/
     .top_navbar-2{
@@ -164,3 +164,32 @@ for large devices (laptops and desktops)
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
     color: rgba(255,255,255,0.9);
 }
+#side_footer{
+    margin-left: 5vw;
+    height: 20vw;
+}
+#side_footer td{
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+}
+.footer_logo{
+    width: 10vw;
+    height: 10vw;
+    background-image: url(/image_files/small_logo.png);
+    background-size: cover;
+    border-bottom-right-radius: 30%;
+    border-top-left-radius: 30%;
+}
+.icon_github{
+    font-size: 2em;
+    color: rgba(255,255,255,0.6);
+    margin-right: 1vw;
+    padding: 0.5vw;
+    border-radius: 1vw;
+}
+#side_footer td p{
+    color: rgba(255,255,255,0.6);
+    font-size: 1em;
+}
+

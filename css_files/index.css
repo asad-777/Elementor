@@ -42,7 +42,7 @@ for medium devices (tablets)
 for large devices (laptops and desktops)
 ==========================================*/
 
-@media (min-width: 900px) {
+@media (min-width: 950px) {
     body {
         background-color: white;
         box-sizing: border-box;
@@ -85,7 +85,7 @@ for large devices (laptops and desktops)
     .input{
         display: flex;
         align-items: center;
-        margin-left: 4vw;
+        margin-left: 3vw;
         border-radius: 1vw;
         border: 3px solid transparent;
         transition-duration: 0.3s;
@@ -118,6 +118,26 @@ for large devices (laptops and desktops)
 .button_input:active {
     transform: translateY(2px); /* Slight push-down effect */
     background-color: rgb(40, 94, 4); /* Even darker green on click */
+}
+.top_blue_icons{
+    display: flex;
+    align-items: center;
+    margin-left: 1.3vw;
+}
+.top_blue_icons div{
+    color: white;
+    font-size: 0.8em;
+    width: 5vw;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 1vw;
+    border-radius: 0.5vw;
+}
+.top_blue_icons div .material-symbols-outlined{
+    font-size: 2.5em;
 }
     /*top orange navigation bar*/
     .top_navbar-2{

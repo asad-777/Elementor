@@ -1,4 +1,69 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*===========================
+for small devices (phones)
+=============================*/
+
+@media (min-width: 320px) and (max-width: 599px) {
+    body {
+        background-color: white;
+        box-sizing: border-box;
+    }
+    .top_navbar {
+        width: 100%;
+        height: 10vh;
+        background-color: limegreen;
+    }
+}
+
+/*=============================
+for medium devices (tablets)
+==============================*/
+
+
+@media (min-width: 600px) and (max-width: 899px) {
+    body {
+        background-color: white;
+        box-sizing: border-box;
+    }
+    .top_navbar {
+        width: 100%;
+        height: 15vh;
+        background-color: limegreen;
+    }
+}
+
+/*=====================================
+for large devices (laptops and desktops)
+==========================================*/
+
+@media (min-width: 900px) {
+    body {
+        background-color: white;
+        box-sizing: border-box;
+    }
+    .top_navbar {
+        width: 100%;
+        height: 15vh;
+        background-color: transparent;
+        top: 0;
+        left: 0;
+        position: fixed;
+    }
+    .top_navbar-1{
+        width: 100%;
+        height: 10vh;
+        background: linear-gradient(45deg,rgb(108, 165, 217),rgb(45, 108, 165));
+        display: flex;
+    }
+    .top_navbar-2{
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        background-color: orange;
+    }
 }

@@ -77,7 +77,8 @@ for large devices (laptops and desktops)
     .logo{
         width: 4.5vw;
         height: 4.5vw;
-        border-radius: 30%;
+        border-bottom-right-radius: 30%;
+        border-top-left-radius: 30%;
         margin-left: 1.5vw;
         display: inline-block;
     }
@@ -114,14 +115,30 @@ for large devices (laptops and desktops)
         border-bottom-right-radius: 1vw;
         background-color: rgb(118, 176, 78);
     }
+    #search:hover{
+        background-color: rgb(57, 102, 27);
+    }
+    #search:active{
+        box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.3); 
+        transform: scale(1.04);
+    }
+    #category:hover{
+        background-color: rgb(57, 102, 27);
+    }
+    #category:active{
+        box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.3); 
+        transform: scale(1.04);
+    }
 .button_input:active {
     transform: translateY(2px); /* Slight push-down effect */
-    background-color: rgb(40, 94, 4); /* Even darker green on click */
 }
 .top_blue_icons{
     display: flex;
     align-items: center;
     margin-left: 1.3vw;
+}
+.top_blue_icons a{
+    text-decoration: none;
 }
 .top_blue_icons div{
     color: white;
@@ -144,6 +161,26 @@ for large devices (laptops and desktops)
         height: 6vh;
         display: flex;
         background: linear-gradient(45deg,rgba(228, 108, 28, 0.8),rgba(243, 161, 106, 0.8));
+    }
+    .top_orange_links{
+        display: flex;
+        align-items: center;
+        margin-left: 1vw;
+    }
+    .orange_nav_lin{
+        color: white;
+        font-size: 1em;
+        margin-right: 0.7vw;
+        text-decoration: none;
+        border: 2px solid transparent;
+        padding: 0.3vw 1vw 0.3vw 1vw;
+        border-radius: 0.5vw;
+        transition-duration: 0.3s;
+    }
+    .orange_nav_lin:hover{
+        text-decoration: underline;
+        color: whitesmoke;
+        font-size: 1.04em;
     }
 }
 

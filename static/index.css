@@ -206,7 +206,7 @@ for large devices (laptops and desktops)
 
 .table_footer_data {
     display: block;  /* Makes the <a> tag fill the entire <td> */
-    padding: 1.6vw;
+    padding: 1.3vw;
     color: rgba(255,255,255,0.6);
     font-size: 1em;
     font-weight: 500;

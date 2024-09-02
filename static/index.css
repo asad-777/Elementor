@@ -188,7 +188,39 @@ for large devices (laptops and desktops)
 
 
 /* Body Main Code */
-
+#body_main{
+    padding: 5vw 0 5vw 0;
+}
+.top_slider_catalog{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.slider_catalog{
+    width: 20vw;
+    height: 30vw;
+    background-color: rgba(150,150,150,0.6);
+}
+.slider_catalog ul{
+    color: whitesmoke;
+    font-size: 1em;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.slider_catalog ul a{
+    border: 2px solid red;
+    padding: 1vw 2vw 1vw 2vw;
+}
+.slider{
+    border-radius: 1.5vw;
+}
+.slider_image{
+    width: 70vw;
+    height: 30vw;
+    background-color: rgb(150,150,150);
+}
 /* Body Main Code End */
 /*Footer is starting here*/
 .footer{

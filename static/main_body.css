@@ -1,0 +1,60 @@
+/* Body Main Code */
+#body_main {
+    padding: 5vw 0;
+}
+
+.top_slider_catalog {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Adjust the slider_catalog to be more responsive */
+.slider_catalog {
+    width: 20vw; /* Width relative to viewport width */
+    height: 30.2vw; /* Height relative to viewport height */
+    background-color: rgba(150, 150, 150, 0.6);
+    overflow: hidden; /* Ensure no content overflows */
+    display: flex;
+    flex-direction: column; /* Stack list items vertically */
+}
+
+.slider_image {
+    width: 70vw;
+    height: 30vw;
+    background-color: rgb(150, 150, 150);
+}
+
+.slider {
+    border-radius: 1.5vw;
+}
+
+/* Ensure list items span full width */
+.slider_catalog ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    height: 100%; /* Full height of the parent div */
+     /* Allow vertical scrolling if content overflows */
+}
+
+.slider_catalog li {
+    flex: 1 0 auto; /* Flex-grow and flex-shrink to adjust with content */
+    display: flex; /* Ensure flex properties apply */
+}
+
+.slider_catalog a {
+    display: block;
+    width: 100%; /* Make the link span full width of the li */
+    padding: 10px; /* Add padding for spacing */
+    text-decoration: none;
+    color: #000; /* Set text color (change as needed) */
+    background-color: #f0f0f0; /* Set background color (change as needed) */
+    text-align: center; /* Center text horizontally */
+}
+
+.slider_catalog a:hover {
+    background-color: #ddd; /* Change background color on hover (optional) */
+}
